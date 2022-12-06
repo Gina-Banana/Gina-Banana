@@ -1,0 +1,1 @@
+SELECT id, name, password, birthday, email FROM logo.customers;

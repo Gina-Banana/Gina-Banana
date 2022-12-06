@@ -1,0 +1,16 @@
+/*CREATE DATABASE `logo2` 
+DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `logo2`;*/
+CREATE TABLE customers(
+id CHAR(10) NOT NULL,
+email VARCHAR(60) NOT NULL,
+ name VARCHAR(20) NOT NULL,
+ password VARCHAR(20) NOT NULL,
+ birthday DATE NOT NULL,
+ gender CHAR(1) NOT NULL,
+ address VARCHAR(100) NOT NULL DEFAULT'',
+ phone CHAR(10) NOT NULL DEFAULT'',
+ subscribed TINYINT NOT NULL DEFAULT '0',
+ PRIMARY KEY(id),
+ UNIQUE KEY email_UNIQUE(email)
+ );

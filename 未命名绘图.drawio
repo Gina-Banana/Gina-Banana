@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T06:50:37.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YY4IbYCp78gDY9eO7PUS" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T03:06:51.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oyo44ROCWea2OaCsHprO" version="20.8.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -248,7 +248,7 @@
             <mxPoint x="819" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-25" value="持續逾期繳費" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-25" value="補繳保費" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="645" y="186" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-27" target="YKBG0jgpZs3wiLhJpTWU-25" edge="1">
@@ -275,7 +275,7 @@
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-39" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="460" y="169" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-41" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-41" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="673" y="228" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-50" target="YKBG0jgpZs3wiLhJpTWU-55" edge="1">
@@ -293,7 +293,7 @@
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-50" value="有APL" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="770" y="186" width="73" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-53" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-53" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="740" y="182" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" target="YKBG0jgpZs3wiLhJpTWU-2" edge="1">
@@ -341,11 +341,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-66" value="PV &amp;lt; 5日保費" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-66" value="天數墊繳&lt;br&gt;終日5日前" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="887" y="324" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-68" target="YKBG0jgpZs3wiLhJpTWU-73" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-68" target="YKBG0jgpZs3wiLhJpTWU-195" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="349" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="349" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-68" value="50 二次催告" style="rounded=0;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="783" y="329" width="82" height="40" as="geometry" />
@@ -356,42 +361,12 @@
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-71" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="865" y="329" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-73" target="YKBG0jgpZs3wiLhJpTWU-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="707" y="259" />
-              <mxPoint x="380" y="259" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-121" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YKBG0jgpZs3wiLhJpTWU-75" vertex="1" connectable="0">
-          <mxGeometry x="-0.8235" y="-3" relative="1" as="geometry">
-            <mxPoint x="-3" y="14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-73" target="YKBG0jgpZs3wiLhJpTWU-195" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="700" y="379" as="sourcePoint" />
-            <mxPoint x="920" y="396" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="707" y="432" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-122" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YKBG0jgpZs3wiLhJpTWU-79" vertex="1" connectable="0">
-          <mxGeometry x="-0.5709" y="2" relative="1" as="geometry">
-            <mxPoint x="-58" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-73" value="持續逾期繳費" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
-          <mxGeometry x="654" y="324" width="105" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-81" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="783" y="226" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-23" target="YKBG0jgpZs3wiLhJpTWU-92" edge="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" source="YKBG0jgpZs3wiLhJpTWU-23" target="YKBG0jgpZs3wiLhJpTWU-92" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="180" as="targetPoint" />
+            <mxPoint x="1100" y="231" as="targetPoint" />
             <Array as="points">
               <mxPoint x="491" y="179" />
               <mxPoint x="1050" y="179" />
@@ -598,8 +573,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-195" value="48時PV&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
-          <mxGeometry x="872.5" y="404" width="87.5" height="56" as="geometry" />
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-195" value="天數墊繳終日，&lt;br&gt;48時PV&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
+          <mxGeometry x="750" y="404" width="210" height="56" as="geometry" />
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-200" value="進入給付期後之年金不可解約" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="DVyqi5FKeD5EoQhoKruz-3" vertex="1">
           <mxGeometry x="575.5" y="646" width="207.5" height="30" as="geometry" />
@@ -626,7 +601,7 @@
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-46" value="APL" style="swimlane;whiteSpace=wrap;html=1;" parent="YKBG0jgpZs3wiLhJpTWU-43" vertex="1">
           <mxGeometry x="201" y="5" width="160" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="YKBG0jgpZs3wiLhJpTWU-47" value="Automatic Premium Loan&lt;br&gt;自動保費貸款&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;以保單現值抵押、約定利息完成借款繳費&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YKBG0jgpZs3wiLhJpTWU-46" vertex="1">
+        <mxCell id="YKBG0jgpZs3wiLhJpTWU-47" value="Automatic Policy Loan&lt;br&gt;自動保費貸款&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;以保單現值抵押、約定利息完成借款繳費&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YKBG0jgpZs3wiLhJpTWU-46" vertex="1">
           <mxGeometry x="1" y="23" width="158" height="87" as="geometry" />
         </mxCell>
         <mxCell id="YKBG0jgpZs3wiLhJpTWU-185" value="ETI" style="swimlane;whiteSpace=wrap;html=1;" parent="YKBG0jgpZs3wiLhJpTWU-43" vertex="1">
